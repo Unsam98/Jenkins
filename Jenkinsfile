@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Get') {
             steps {
-                git 'https://github.com/Unsam98/Jenkins/studentAttendence.git'
+                git 'https://github.com/Unsam98/Jenkins.git'
             }
         }
         stage('Compile') {
